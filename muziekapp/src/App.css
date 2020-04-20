@@ -1,0 +1,139 @@
+body{
+  background-color: #add8e6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: solid lightslategrey 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+nav{
+  display: inline-block;
+  position: relative;
+  background-color: rgb(241, 168, 168);
+  width: 1718px;
+    
+}
+
+
+ul{
+  list-style: none;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgb(236, 152, 164);
+  margin-top: -1%
+}
+
+.list-item{
+  display: inline-flex;
+  margin-left: -2.4%;
+  margin-bottom: 1%;
+  border: dashed black 1px;
+}
+
+.title{
+  width: 150px;
+  margin-right: 21%;
+ }
+.artist{
+  width: 150px;
+  margin-right: 22.5%;
+}
+
+.genre{
+  width: 100px;
+  margin-right: 25%;
+}
+
+.rating{
+  width: 100px;
+   margin-right: 0;
+   
+   
+ }
+
+.Header{
+  background-color: indianred;
+  text-align: center;
+  margin-top: -0.05%;
+}
+
+div .Top-div{
+  border: solid  black 1px;
+  background-color: lightcoral;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -1.2%
+}
+
+div .Top {
+  display: inline-flex;
+  
+ }
+
+ #title{
+  margin-right: 28%;
+ }
+#artist{
+  margin-right: 28%;
+}
+
+#genre{
+  margin-right: 28%;
+}
+
+ #rating{
+   margin-right: 0;
+   
+ }
+
+.input{
+  display: inline-flex;
+  margin-left: 5%;
+  
+}
+
+.toevoegen{
+  background-color: maroon;
+  height: 50px;
+  text-align: center;
+  
+
+}
+.Submit{
+  border-radius: 25px;
+  background-color: #970404;
+  color: white;
+}
+
+.sort{
+  border-radius: 25px;
+  background-color: #970404;
+  color: white;
+  height: 35px; 
+  width: 80px; 
+}
+
+
+
+.about-header{
+    background-color: indianred;
+    text-align: center;
+    margin-top: -1.2%;
+    height: 80px;
+}
+
+.about{
+   background-color: lightcoral;
+   
+   height: 85px;
+}
+
+.buttons{
+  display: inline-flex;
+  justify-content: center;
+  
+}
